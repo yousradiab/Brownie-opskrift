@@ -1,5 +1,49 @@
-html {
-  background-color: blanchedalmond;
-  font-family: "Arial Black", Arial, Helvetica, sans-serif;
-  color: black;
+body {
+  background-color: antiquewhite;
 }
+
+h1 {
+  background-color: bisque;
+  color: brown;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+p {
+  color: rgb(72, 24, 24);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: larger;
+}
+
+aside {
+  background-color: lightgrey;
+  font-size: medium;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+section {
+  background-color: rgba(255, 228, 196, 0.801);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+article {
+  background-color: rgba(255, 228, 196, 0.811);
+  color: rgba(12, 7, 4, 0.838);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h4 {
+  font-size: large;
+}
+footer {
+  background-color: rgba(228, 179, 142, 0.708);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: small;
+}
+
+#selectors {color: brown;}
