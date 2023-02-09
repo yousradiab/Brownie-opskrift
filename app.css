@@ -4,6 +4,7 @@ body {
   padding: 0;
 }
 
+main {
   display: grid;
   grid-template-areas:
     "header"
