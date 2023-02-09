@@ -18,7 +18,7 @@ main {
   main {
     grid-template-areas:
       "header header header aside"
-      "article article section"
+      "article article section section"
       "footer footer footer footer";
   }
 }
@@ -78,4 +78,8 @@ footer {
   margin: 30px;
   padding: 20px;
   grid-area: footer;
+}
+
+img {
+  width: 50%;
 }
