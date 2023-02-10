@@ -8,48 +8,41 @@
   </head>
 
   <body>
-    <main>
+    <h1>Brownie - Opskrift</h1>
+
+    <main class="grid-container">
       <header>
-        <h1>Brownie</h1>
-        <figure>
-          <img src="./images/brownie.jpg"/>
-        </figure>
+        <img src="./images/brownie.jpg" class="billede" />
         <p>
-          <i>
-            Lækker brownie med en fyldig og skøn chokoladesmag. Helt perfekt,
-            uimodståelig smovset og ægte chokoladekærlighed ♡
-          </i>
+          Lækker brownie med en fyldig og skøn chokoladesmag. Helt perfekt,
+          uimodståelig smovset og ægte chokoladekærlighed ♡
         </p>
-        <!-- Jeg har brugt "i" elementet for at ændre på skrift typen, så den lginer en billede tekst i kursiv.  -->
       </header>
 
       <aside>
         <dl>
-          <small>
-            <dt>Tid i alt: 45 minutter</dt>
-            <dt>Arbejdstid: 30 minutter</dt>
-            <dt>Holdbarhed: 3 dage</dt>
-            <dt>Kan fryses: Ja</dt>
-            <dt>Antal: 12 stk.</dt>
-          </small>
+          <dt>Tid i alt: 45 minutter</dt>
+          <dt>Arbejdstid: 30 minutter</dt>
+          <dt>Holdbarhed: 3 dage</dt>
+          <dt>Kan fryses: Ja</dt>
+          <dt>Antal: 12 stk.</dt>
         </dl>
+        <section>
+          <h3>Ingredienser</h3>
+          <!-- Liste med bulletpoints laves på følgende måde: -->
+          <ul>
+            <li>200 g smør</li>
+            <!-- Dubler tekst ved at trykke shift + alt eller pil op eller ned  -->
+            <li>200 g mørkchokolade, gofthakket</li>
+            <li>4 æg</li>
+            <li>225 g sukker</li>
+            <li>1 tsk vanilie</li>
+            <li>110 g hvedemel</li>
+            <li>0,50 tsk flagesalt</li>
+            <li>100 g valnødder</li>
+          </ul>
+        </section>
       </aside>
-
-      <section>
-        <h3>Ingredienser</h3>
-        <!-- Liste med bulletpoints laves på følgende måde: -->
-        <ul>
-          <li>200 g smør</li>
-          <!-- Dubler tekst ved at trykke shift + alt eller pil op eller ned  -->
-          <li>200 g mørkchokolade, gofthakket</li>
-          <li>4 æg</li>
-          <li>225 g sukker</li>
-          <li>1 tsk vanilie</li>
-          <li>110 g hvedemel</li>
-          <li>0,50 tsk flagesalt</li>
-          <li>100 g valnødder</li>
-        </ul>
-      </section>
 
       <article>
         <h3>Fremgangsmåde</h3>
@@ -80,10 +73,10 @@
           <li>Drys med lidt saltflager på hvert stykke ved servering.</li>
         </ol>
       </article>
-
-      <footer>
-        <h4>Tips til opskriften</h4>
-
+    </main>
+    <footer>
+      <h4>Tips til opskriften</h4>
+      <ul>
         <li>
           Man kan undlade valnødderne eller udskifte med fx hasselnødder,
           mandler eller pekannødder – eller med tilsvarende grofthakket
@@ -110,8 +103,8 @@
             >"ofte stillede spørgsmål" til Valdemarsro Opskrifter</a
           >, hvor jeg blandt andet skriver om bagning af kager mv.
         </li>
-        <hr />
-      </footer>
-    </main>
+      </ul>
+      <hr />
+    </footer>
   </body>
 </html>
